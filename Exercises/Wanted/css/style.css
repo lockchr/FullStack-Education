@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Rye&display=swap");
+html {
+	background-image: url("file:///C:/Users/chris/Desktop/Kingsland/Exercises/Wanted/img/old-paper.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: "Rye", cursive;
+	font-size: 10px;
+	text-align: center;
+}
+
+h1.spacing {
+	letter-spacing: 4px;
+}
+
+body {
+	font-size: 1.1rem;
+	margin: 0 auto;
+}
+
+img {
+	width: 25%;
+	margin: 0 auto;
+}
+
+.font {
+	font-size: 7rem;
+}

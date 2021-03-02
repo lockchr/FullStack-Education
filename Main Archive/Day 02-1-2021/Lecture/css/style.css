@@ -1,0 +1,35 @@
+a {
+  text-decoration: none;
+}
+h1 {
+  background-color: slategray;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+h2 {
+  display: inline;
+}
+p {
+  margin: 5px;
+  width: 33%;
+}
+ul {
+  margin-right: 20px;
+}
+
+.container {
+  background-color: lightgray;
+  margin: 0;
+  border: 0;
+  padding: 10px;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.rightMargin {
+  margin-right: 50px;
+}

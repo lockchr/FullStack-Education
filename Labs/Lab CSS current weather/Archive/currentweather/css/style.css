@@ -1,0 +1,54 @@
+div > img {
+  width: 340px;
+  margin-right: 35px;
+}
+
+div > p {
+  text-align: left;
+}
+
+h2.main-title {
+  text-transform: uppercase;
+}
+
+h1.town {
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+span.textalignright {
+  display: inline-table;
+  float: right;
+  text-align: right;
+}
+p.degrees {
+  margin-left: 20px;
+}
+p.feelslike {
+  margin-left: 20px;
+}
+
+span {
+  padding-right: 10%;
+}
+
+.degrees {
+  font-size: 65px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 110px;
+}
+
+.feelslike {
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: -65px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}

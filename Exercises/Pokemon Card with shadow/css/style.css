@@ -1,0 +1,30 @@
+div > img {
+	width: 300px;
+}
+.shadow:hover {
+	box-shadow: 0 5px 5px 0 lightgrey;
+}
+
+.border {
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	overflow: auto;
+	margin-left: 3%;
+	margin-right: 3%;
+	width: 55%;
+	padding: 4px;
+}
+
+.left {
+	float: left;
+}
+.right {
+	float: right;
+	margin-top: 3%;
+	margin-right: 3%;
+}
+.pikastyle {
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}

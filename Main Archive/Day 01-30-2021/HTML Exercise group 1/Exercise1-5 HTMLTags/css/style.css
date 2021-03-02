@@ -1,0 +1,15 @@
+table {
+  border: 1px double lightgray;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th,
+tr,
+td {
+  border: 1px double lightgray;
+}
+
+.left {
+  text-align: left;
+}

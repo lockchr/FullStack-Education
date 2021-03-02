@@ -1,0 +1,58 @@
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+body img {
+  float: left;
+  width: 45%;
+}
+
+header {
+  padding: 2%;
+  text-align: center;
+}
+
+table,
+th,
+td {
+  border-width: 3px;
+  border-style: outset;
+  border-color: lightgray;
+  border-collapse: collapse;
+}
+
+td img {
+  display: block;
+  width: 15%;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav a {
+  display: inline-block;
+  font-size: 100%;
+  font-weight: bold;
+  margin: 1% 4%;
+  text-decoration: none;
+  text-align: end;
+}
+
+.logo {
+  vertical-align: left;
+  width: 5%;
+  height: 5%;
+}
+
+.poistyle {
+  text-align: center;
+}
+.prettify {
+  text-align: center;
+}
+.senditright {
+  text-align: right;
+}

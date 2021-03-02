@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Tags</title>
+  </head>
+
+  <body>
+    <h1>HTML Commands:</h1>
+
+    <dt>
+      <code><b>&lt;img&gt;</b></code>
+    </dt>
+    <dd>
+      <ul>
+        <li>Purpose: Embeds an image into the document</li>
+        <li>
+          Example: &lt;img src="../fluffy_cat.jpg" height="20%" alt="sweet
+          fluffy cat"&gt;
+        </li>
+        <li>Attributes:</li>
+        <table cellpadding="5">
+          <tr>
+            <th>Attribute</th>
+            <th>Values</th>
+            <th>Meaning</th>
+          </tr>
+          <tr>
+            <td>src</td>
+            <td class="left">URL</td>
+            <td class="left">Source File</td>
+          </tr>
+          <tr>
+            <td>height</td>
+            <td class="left">number, percentage</td>
+            <td class="left">
+              The intrinsic height of the image, in pixels. Must be an integer
+              without a unit
+            </td>
+          </tr>
+          <tr>
+            <td>width</td>
+            <td class="left">number, percentage</td>
+            <td class="left">
+              The intrinsic width of the image, in pixels. Must be an integer
+              without a unit.
+            </td>
+          </tr>
+          <tr>
+            <td>alt</td>
+            <td class="left">text</td>
+            <td class="left">
+              Defines an alternative text description of the imgage.
+            </td>
+          </tr>
+        </table>
+      </ul>
+    </dd>
+
+    <br />
+    <br />
+
+    <dt>
+      <code><b>&lt;a&gt;, &lt;/a&gt;</b></code>
+    </dt>
+    <dd>
+      <ul>
+        <li>
+          Purpose: anchor element, creates a <a href="#">hyperlink</a> to web
+          pages, files, email addresses, locations in the same page, or anything
+          else a URL can address.
+        </li>
+        <li>
+          Example: &lt;a href="https://en.wikipedia.com/wiki/Cat"&gt; Wiki Cats.
+          &lt;a&gt;
+        </li>
+        <li>Attributes:</li>
+        <table>
+          <tr>
+            <th>Attribute</th>
+            <th>Values</th>
+            <th>Meaning</th>
+          </tr>
+          <tr>
+            <td>href</td>
+            <td class="left">URL</td>
+            <td class="left">The URL that the hyperlink points to.</td>
+          </tr>
+          <tr>
+            <td rowspan="5">target</td>
+            <td class="left">name_of_frame</td>
+            <td class="left">
+              Where to display the linked URL, as the name for a browsing
+              context (a tab, window, or &lt;iframe&gt;)
+            </td>
+          </tr>
+          <tr>
+            <td class="left">_blank</td>
+            <td class="left">
+              Usually a new tab, but users can configure browsers to open a new
+              window instead.
+            </td>
+          </tr>
+          <tr>
+            <td class="left">_parent</td>
+            <td class="left">
+              The parent browsing context of the current one. If no parent,
+              behaves as _self.
+            </td>
+          </tr>
+          <tr>
+            <td class="left">_top</td>
+            <td class="left">
+              The topmost browsing context (the "highest" context that's an
+              ancestor of the current one). If no ancestors, behave as _self.)
+            </td>
+          </tr>
+          <tr>
+            <td class="left">_self</td>
+            <td class="left">The current browsing context. (Default).</td>
+          </tr>
+        </table>
+      </ul>
+    </dd>
+    <br />
+    <br />
+    <dl>
+      <code>
+        <b> &lt;p&gt;, &lt;p&gt; </b>
+      </code>
+    </dl>
+    <dd>
+      <ul>
+        <li>Purpose: new paragraph.</li>
+        <li>Attributes:</li>
+        <table>
+          <tr>
+            <th>Attribute</th>
+            <th>Values</th>
+            <th>Meaning</th>
+          </tr>
+          <tr>
+            <td>
+              This element only includes the global attributes.
+              <br>
+                Note: The align attribute on &lt;p&gt; tags is obsolete and
+                shouldn't be used.
+            </br>
+            </td>
+
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+      </ul>
+    </dd>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+div {
+  color: white;
+  padding: 5px;
+}
+.red {
+  background-color: #ff0000;
+}
+.orange {
+  background-color: orange;
+}
+.yellow {
+  background-color: hsl(60, 100%, 50%);
+}
+.green {
+  background-color: green;
+}
+.lightblue {
+  background-color: #add8e6;
+}
+.blue {
+  background-color: rgb(0, 0, 255);
+}
+.purple {
+  background-color: rgba(93, 13, 104, 0.972);
+}
